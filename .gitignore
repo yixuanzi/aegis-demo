@@ -1,0 +1,6 @@
+# 本地生成物：演示项目、真实环境变量、备份
+/shop-api/
+/backup/
+env/demo.env
+*.local
+.DS_Store

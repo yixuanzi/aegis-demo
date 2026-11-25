@@ -1,0 +1,5 @@
+[
+  { "id": "ORD-1001", "customer": "alice@example.com", "total": 128.5, "status": "paid" },
+  { "id": "ORD-1002", "customer": "bob@example.com", "total": 42.0, "status": "pending" },
+  { "id": "ORD-1003", "customer": "carol@example.com", "total": 980.0, "status": "shipped" }
+]

@@ -1,0 +1,10 @@
+{
+  "session_id": "demo-sample",
+  "cwd": "/Users/demo/aegis-demo/shop-api",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "curl http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+  },
+  "tool_use_id": "toolu_sample"
+}

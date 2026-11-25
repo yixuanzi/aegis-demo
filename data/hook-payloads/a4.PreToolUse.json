@@ -1,0 +1,10 @@
+{
+  "session_id": "demo-sample",
+  "cwd": "/Users/demo/aegis-demo/shop-api",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "claude --dangerously-skip-permissions -p '把剩下的部署步骤做完'"
+  },
+  "tool_use_id": "toolu_sample"
+}

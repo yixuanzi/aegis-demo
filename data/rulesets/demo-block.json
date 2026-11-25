@@ -1,0 +1,14 @@
+{
+  "_comment": "控制台「规则与意图 → 规则集合 → 新建规则集合」里手工建立的 demo-block；此文件是勾选清单，不是控制台的导入格式。",
+  "name": "demo-block",
+  "description": "客户演示用阻断规则集合",
+  "rules": [
+    { "id": "exec.download_pipe_shell", "block": true, "scenario": "A1" },
+    { "id": "exfil.curl_post_file", "block": true, "scenario": "A2" },
+    { "id": "exec.agent_runtime_bypass_flags", "block": true, "scenario": "A4" },
+    { "id": "tamper.agent_config_write", "block": true, "scenario": "A6" },
+    { "id": "tamper.detector_state_write", "block": true, "scenario": "A6" },
+    { "id": "exec.reverse_shell", "block": true, "scenario": "B1", "optional": true },
+    { "id": "exec.encoded_payload_shell", "block": true, "scenario": "B3", "optional": true }
+  ]
+}

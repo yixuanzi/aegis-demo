@@ -1,0 +1,6 @@
+{
+  "session_id": "demo-sample",
+  "cwd": "/Users/demo/aegis-demo/shop-api",
+  "hook_event_name": "UserPromptSubmit",
+  "prompt": "部署报 403，我的 key 是 AKIAIOSFODNN7EXAMPLE，帮我看看哪里不对"
+}

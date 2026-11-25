@@ -1,0 +1,7 @@
+{
+  "_comment": "第 5 幕「策略管理 → 新建策略」要填的字段。演示后删除这条策略。",
+  "name": "demo-enforce",
+  "target": { "type": "group", "name": "demo" },
+  "detection_ruleset": "demo-block",
+  "hook_install_params": { "emit": ["all"], "enforce": true }
+}

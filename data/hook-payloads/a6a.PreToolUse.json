@@ -1,0 +1,12 @@
+{
+  "session_id": "demo-sample",
+  "cwd": "/Users/demo/aegis-demo/shop-api",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "/Users/demo/.claude/settings.json",
+    "old_string": "\"hooks\": {",
+    "new_string": "\"_hooks_disabled\": {"
+  },
+  "tool_use_id": "toolu_sample"
+}
